@@ -25,7 +25,7 @@ describe('Binary Search Tree', () => {
     const tree = createTree()
     const values = []
     tree.BFS((v) => values.push(v))
-    expect(values).toEqual([9, 5, 14, 4, 7, 12, 18, 1, 6, 8, 10, 13, 17, 20, 1])
+    expect(values).toEqual([9, 5, 14, 4, 7, 12, 18, 1, 6, 8, 10, 13, 17, 20, 16])
   })
 
   it('Pre-order depth-first search', () => {
